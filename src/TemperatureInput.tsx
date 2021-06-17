@@ -36,7 +36,7 @@ export class TemperatureInput extends React.Component<
     const scaleText = scale === ScaleType.C ? SCALE_TYPES.c : SCALE_TYPES.f;
     return (
       <fieldset>
-        <legend>Enter temperature in {scaleText}: </legend>
+        <legend>Enter the temperature in {scaleText}: </legend>
         <input value={temperature} onChange={this.handleChange} />
       </fieldset>
     );
